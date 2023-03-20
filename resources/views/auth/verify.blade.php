@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    {{ __('Avant de procéder, s'il vous plaît valider le lien de vérification dans votre mail.') }}
+                    {{ __('Avant de procéder, s\'il vous plaît valider le lien de vérification dans votre mail.') }}
                     {{ __('Si vous avez pas reçu de mail') }},
                     <form class="d-inline" method="POST" action="{{ route('verification.resend') }}">
                         @csrf
